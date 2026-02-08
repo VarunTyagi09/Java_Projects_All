@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Allow only Java files
+!*.java
+
+# Keep gitignore itself tracked
+!.gitignore
