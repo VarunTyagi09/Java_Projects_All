@@ -47,7 +47,6 @@ public class Marks_Grade_Evaluation {
                 System.out.print("Your Grades: F ");
 
             }
-            break;
-        }
+            input.close();
     }
 }
