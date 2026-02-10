@@ -19,8 +19,6 @@ public class Marks_Grade_Evaluation {
 
             {
                 Scanner Grade = new Scanner(System.in);
-            }
-            
             float Grade = input.nextFloat();
 
             if (Grade >= 90 && Grade <= 100) {
