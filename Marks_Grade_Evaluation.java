@@ -11,6 +11,8 @@ public class Marks_Grade_Evaluation {
         System.out.print("Enter Roll Number: ");
         int RollNo = input.nextInt();
 
+        float grade;
+
         System.out.print("Enter Your Grades: ");
         float Grade = input.nextFloat();
         while (true) {
