@@ -18,10 +18,10 @@ public class Marks_Grade_Evaluation {
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
 
         if (Grade >=90 && Grade <= 100){
-            System.out.print("Your Grades: A+, Excellent ");
+            System.out.print("Your Grades: A+");
         }
 
         else if (Grade >=80 && Grade <= 89) {
-            System.out.print("Your Grades: A, Excellent ");
+            System.out.print("Your Grades: A ");
     }
 }
