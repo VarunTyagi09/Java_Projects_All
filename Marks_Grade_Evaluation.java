@@ -24,9 +24,8 @@ public class Marks_Grade_Evaluation {
                 System.out.println(" Invalid marks! Please enter again.");
             }
         }
-
-        while (true) {
-            (grade >= 90) {
+        
+            if (grade >= 90) {
                 System.out.println("A+");
             } else if (grade >= 80) {
                 System.out.println("A");
