@@ -17,9 +17,9 @@ public class Marks_Grade_Evaluation {
             if (Grade >= 0 && Grade <= 100) break;
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
 
-            {
-                Scanner Grades = new Scanner(System.in);
-                float Grade = input.nextFloat();
+
+            Scanner sc = new Scanner(System.in);
+            Grade = sc.nextFloat();
 
                 if (Grade >= 90 && Grade <= 100) {
                     System.out.print("Your Grades: A+");
@@ -28,4 +28,21 @@ public class Marks_Grade_Evaluation {
                 } else if (Grade >= 80 && Grade <= 89) {
                     System.out.print("Your Grades: A ");
                 }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
             }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
+                else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
