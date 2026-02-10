@@ -21,28 +21,33 @@ public class Marks_Grade_Evaluation {
             Scanner sc = new Scanner(System.in);
             Grade = sc.nextFloat();
 
-                if (Grade >= 90 && Grade <= 100) {
-                    System.out.print("Your Grades: A+");
+            if (Grade >= 90 && Grade <= 100) {
+                System.out.print("Your Grades: A+");
 
 
-                } else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
+            } else if (Grade >= 80 && Grade <= 89) {
+                System.out.print("Your Grades: A ");
+
+            } else if (Grade >= 70 && Grade <= 79) {
+                System.out.print("Your Grades: B+ ");
+
+            } else if (Grade >= 60 && Grade <= 69) {
+                System.out.print("Your Grades: B ");
+
+            } else if (Grade >= 50 && Grade <= 59) {
+                System.out.print("Your Grades: C ");
+
+            } else if (Grade >= 45 && Grade <= 49) {
+                System.out.print("Your Grades: D ");
+
+            } else if (Grade >= 40 && Grade <= 44) {
+                System.out.print("Your Grades: E ");
+
+            } else if (Grade = 0 && Grade < 39) {
+                System.out.print("Your Grades: F ");
+
             }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
-                else if (Grade >= 80 && Grade <= 89) {
-                    System.out.print("Your Grades: A ");
-                }
+            break;
+        }
+    }
+}
