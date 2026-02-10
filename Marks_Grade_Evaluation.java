@@ -15,11 +15,15 @@ public class Marks_Grade_Evaluation {
 
 
         while (true) {
-            System.out.print("Enter Your Grades: ");
-        float Grade = input.nextFloat();
-        
-            if (Grade >= 0 && Grade <= 100) break;
-            System.out.print(" Invalid! Enter Correct marks again (0-100): ");
+            System.out.print("Enter Marks (0-100): ");
+            float grade = input.nextFloat();
+
+            if (grade >= 0 && grade <= 100) {
+                break;
+            } else {
+                System.out.println(" Invalid marks! Please enter again.");
+            }
+        }
 
             while (true) {
                 if (Grade >= 90 && Grade <= 100) {
