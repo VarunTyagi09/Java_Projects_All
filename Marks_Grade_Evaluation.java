@@ -19,7 +19,7 @@ public class Marks_Grade_Evaluation {
 
             {
                 Scanner Grades = new Scanner(System.in);
-                float Grades = input.nextFloat();
+                float Grade = input.nextFloat();
 
                 if (Grade >= 90 && Grade <= 100) {
                     System.out.print("Your Grades: A+");
@@ -29,6 +29,3 @@ public class Marks_Grade_Evaluation {
                     System.out.print("Your Grades: A ");
                 }
             }
-        }
-    }
-}
