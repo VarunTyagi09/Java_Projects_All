@@ -17,11 +17,11 @@ public class Marks_Grade_Evaluation {
             if (Grade >= 0 && Grade <= 100) break;
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
 
-        if (Grade >=89 && Grade <= 100){
+        if (Grade >=90 && Grade <= 100){
             System.out.print("Your Grades: A+, Excellent ");
         }
 
-        else if (Grade >80 && Grade <= 100) {
+        else if (Grade >=80 && Grade <= 89) {
             System.out.print("Your Grades: F-, Excellent ");
     }
 }
