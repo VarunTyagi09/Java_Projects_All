@@ -31,6 +31,7 @@ public class Marks_Grade_Evaluation {
                 } else if (Grade >= 60 && Grade <= 69) {
                     System.out.print("Your Grades: B ");
 
+
                 } else if (Grade >= 50 && Grade <= 59) {
                     System.out.print("Your Grades: C ");
 
@@ -39,7 +40,6 @@ public class Marks_Grade_Evaluation {
 
                 } else if (Grade >= 40 && Grade <= 44) {
                     System.out.print("Your Grades: E ");
-
                 }
                 input.close();
             }
