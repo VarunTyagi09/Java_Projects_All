@@ -18,7 +18,7 @@ public class Marks_Grade_Evaluation {
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
 
             {
-                Scanner Grade = new Scanner(System.in);
+                Scanner Grades = new Scanner(System.in);
                 float Grade = input.nextFloat();
 
                 if (Grade >= 90 && Grade <= 100) {
