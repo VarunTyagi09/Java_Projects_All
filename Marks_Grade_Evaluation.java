@@ -43,9 +43,6 @@ public class Marks_Grade_Evaluation {
             } else if (Grade >= 40 && Grade <= 44) {
                 System.out.print("Your Grades: E ");
 
-            } else (Grade = 0 && Grade < 39) {
-                System.out.print("Your Grades: F ");
-
             }
             input.close();
     }
