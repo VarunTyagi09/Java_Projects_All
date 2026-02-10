@@ -39,7 +39,7 @@ public class Marks_Grade_Evaluation {
         } else if (grade >= 40) {
             System.out.println("E");
         } else {
-            System.out.println("Fail");
+            System.out.println("Fz");
         }
 
         input.close();
